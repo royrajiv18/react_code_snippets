@@ -18,6 +18,12 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* counter app css */
+.btn-action {
+  background-color: gray;
+  margin: 5px;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
