@@ -10,13 +10,14 @@ const TodoList = () => {
     setTask("");
   };
 
+  // toggle task
   const handleToggleTask = (index) => {
     const updatedTasks = tasks.map((t, i) =>
       i === index ? { ...t, completed: !t.completed } : t
     );
     setTasks(updatedTasks);
   };
-
+// delete task
   const handleDeleteTask = (index) => {
     const updatedTasks = tasks.filter((_, i) => i !== index);
     setTasks(updatedTasks);
