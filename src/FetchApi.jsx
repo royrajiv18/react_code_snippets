@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function UsersList() {
+const UsersList = ()=> {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
 
